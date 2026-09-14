@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0e14" />
+  <title>404 — mdrasaa</title>
+  <style>
+    :root { --bg: #0b0e14; --text: #dbe4f0; --accent: #4ade80; --dim: #8fa1bb; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+           display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; padding: 24px; text-align: center; }
+    pre { font-family: Consolas, monospace; color: var(--dim); font-size: clamp(0.8rem, 2vw, 1rem); line-height: 1.8; }
+    .hi { color: var(--accent); }
+    h1 { font-size: clamp(2.2rem, 6vw, 4rem); font-weight: 800; margin-bottom: 12px; }
+    p { color: var(--dim); margin-bottom: 24px; }
+    a { color: var(--accent); text-decoration: none; font-weight: 600; border: 1px solid var(--accent); padding: 10px 22px; border-radius: 999px; transition: 0.2s; }
+    a:hover { background: var(--accent); color: var(--bg); }
+  </style>
+</head>
+<body>
+<pre>$ curl -I https://mdrasaa.github.io/this-page
+<span class="hi">HTTP/1.1 404 Not Found</span>
+X-Status: does not exist
+X-Action: try the <a href="/">homepage</a></pre>
+<h1>404</h1>
+<p>This page doesn't exist. If you're looking for something specific, head back home.</p>
+<a href="/">Back to home</a>
+</body>
+</html>
